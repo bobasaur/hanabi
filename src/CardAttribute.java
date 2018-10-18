@@ -1,3 +1,5 @@
 public abstract class CardAttribute {
-  public abstract String getString();
+  public String getString() {
+    return this.toString();
+  }
 }

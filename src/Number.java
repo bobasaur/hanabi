@@ -7,7 +7,4 @@ public class Number extends CardAttribute {
     FIVE
   }
 
-  public String getString() {
-    
-  }
 }
