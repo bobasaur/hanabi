@@ -1,0 +1,41 @@
+Classes:
+•	Board
+    o	Private List<Pile>
+    o	Private Set<Color> colors
+    o	Deck
+    o	int hintCounter
+    o	int lifeCounter
+    o	Player currentPlayer
+    o	List<Player> players;
+    o	Boolean gameEnded
+    o	initializeBoard()
+    o	hasPile(Color)
+    o	shuffle()
+    o	dealCard()
+    o	gameStart() { while(…)}
+    o	Boolean gameEnd() {}
+    o	CalculateStore
+    o	getValidMoves()
+•	Card {Color color, Number value}
+•	Player {
+    o	Private List<Card> hand;
+    o	Public void hint(Player other, int[] locations, CardAttribute number)
+    o	Public void draw();
+    o	Public List<Card> getPlayerHand(Player)
+    o	Public playCard(Card card)
+    o	Public discardCard(Card card)
+•	Color extend CardAttribute(abtract)
+•	Number extend CardAttribute
+•	Pile
+
+CardAttribute -> toString,
+
+
+Public Color {
+Enum { Yellow, Red, Blue, }}
+
+Public class card {
+private Color;
+Private Number;
+
+
